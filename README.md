@@ -25,3 +25,21 @@ Linux環境を指定してコンパイル
 
 - `postgres -D /usr/local/var/postgres` postgresSQLサーバの起動
 - `psql -l` データベース一覧を取得
+
+
+## ディレクトリ構成
+- app/models/
+    - base.go DB関連の共通処理
+    - users.go ユーザーのCRUD
+- config/
+    - config.go 初期設定(config, logの読込み)
+- utils/
+    - logging.go log機能追加
+- config.ini
+- main.go
+- webapp.log 
+- webapp.sql
+
+## sqlite3コマンド
+- `.talbe`
+- `.exit`
