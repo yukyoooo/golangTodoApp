@@ -10,7 +10,17 @@ func main() {
 	fmt.Println(models.Db)
 
 	controllers.StartMainServer()
+	// user, _ := models.GetUserByEmail("test@example")
+	// fmt.Println(user)
 
+	// session, err := user.CreateSession()
+	// if err != nil {
+	// 	log.Println(err)
+	// }
+	// fmt.Println(session)
+
+	// valid, _ := session.CheckSession()
+	// fmt.Println(valid)
 	/*
 		fmt.Println(config.Config.Port)
 		fmt.Println(config.Config.SQLDriver)
